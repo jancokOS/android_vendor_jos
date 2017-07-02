@@ -204,10 +204,10 @@ DEVICE_PACKAGE_OVERLAYS += vendor/jos/overlay/common
 
 # Versioning System
 ANDROID_VERSION = 7.1.2
-JOS_VERSION = 1.0
+JOS_VER = Aspirin
 
 # Set all versions
-JOS_VERSION := jos_$(JOS_BUILD)_$(ANDROID_VERSION)_$(shell date -u +%Y%m%d-%H%M)-$(JOS_VERSION)
+JOS_VERSION := $(JOS_BUILD)_$(ANDROID_VERSION)_$(shell date -u +%Y%m%d-%H%M)-$(JOS_VER)
 
 PRODUCT_PROPERTY_OVERRIDES += \
     BUILD_DISPLAY_ID=$(BUILD_ID) \
