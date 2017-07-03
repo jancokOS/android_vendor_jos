@@ -88,7 +88,8 @@ PRODUCT_PACKAGES += \
 # Required CM packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
-    Development
+    Development \
+    ThemeInterfacer
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
