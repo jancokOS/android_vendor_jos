@@ -78,17 +78,15 @@ include vendor/jos/config/cm_audio.mk
 
 # TWRP
 ifeq ($(WITH_TWRP),true)
-include vendor/cm/config/twrp.mk
+include vendor/jos/config/twrp.mk
 endif
-
-# Bootanimation
-PRODUCT_PACKAGES += \
-    bootanimation.zip
 
 # Required CM packages
 PRODUCT_PACKAGES += \
     BluetoothExt \
     Development \
+    Eleven \
+    Jelly \
     ThemeInterfacer
 
 # Optional CM packages
