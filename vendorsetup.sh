@@ -1,1 +1,3 @@
 add_lunch_combo jos_oneplus3-userdebug
+add_lunch_combo jos_herolte-userdebug
+add_lunch_combo jos_hero2lte-userdebug
