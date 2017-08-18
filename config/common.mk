@@ -89,6 +89,7 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     libemoji \
     LiveWallpapersPicker \
+    WallpaperPicker \
     PhotoTable \
     Terminal
 
