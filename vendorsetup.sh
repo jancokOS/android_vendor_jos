@@ -1,5 +1,6 @@
 add_lunch_combo jos_gemini-userdebug
 add_lunch_combo jos_herolte-userdebug
 add_lunch_combo jos_hero2lte-userdebug
+add_lunch_combo jos_kenzo-userdebug
 add_lunch_combo jos_oneplus3-userdebug
 
